@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v1
-      - uses: puf17640/covid-box@master
+      - uses: pajka-js/covid-box@master
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
